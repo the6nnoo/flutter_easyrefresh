@@ -657,7 +657,7 @@ class ClassicalFooterWidgetState extends State<ClassicalFooterWidget>
                             widget.noMore
                         ? Icon(
                             _finishedIcon,
-                            color: widget.classicalFooter.textColor,
+                            color: Colors.transparent,
                           )
                         : Transform.rotate(
                             child: Icon(
@@ -726,7 +726,7 @@ class ClassicalFooterWidgetState extends State<ClassicalFooterWidget>
                           widget.noMore
                       ? Icon(
                           _finishedIcon,
-                          color: widget.classicalFooter.textColor,
+                          color: Colors.transparent,
                         )
                       : Transform.rotate(
                           child: Icon(
