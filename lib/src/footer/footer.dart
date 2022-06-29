@@ -679,7 +679,7 @@ class ClassicalFooterWidgetState extends State<ClassicalFooterWidget>
                   Text(
                     _showText,
                     style: TextStyle(
-                      fontSize: 16.0,
+                      fontSize: 14.0,
                       color: widget.classicalFooter.textColor,
                     ),
                   ),
