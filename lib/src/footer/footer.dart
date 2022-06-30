@@ -671,7 +671,7 @@ class ClassicalFooterWidgetState extends State<ClassicalFooterWidget>
               ),
             ),
             Expanded(
-              flex: 3,
+              flex: 10,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.center,
